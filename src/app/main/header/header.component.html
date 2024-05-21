@@ -1,0 +1,83 @@
+<div class="container-23 header " >
+    <div class="background" >
+      <div class="list-3">
+        <div class="item-link-jordan-svg">
+          <img class="vector-11" src="../../../assets/vectors/vector_4_x2.svg" />
+        </div>
+        <div class="item-link-converse-svg">
+          <img class="vector-12" src="../../../assets/vectors/vector_12_x2.svg" />
+        </div>
+      </div>
+      <div class="container-18">
+        <div class="link-find-astore">
+        Find a Store
+        </div>
+        <div class="container-1">
+        |
+        </div>
+        <div class="menuitem-help-help">
+        Help
+        </div>
+        <div class="container-pipe">
+        |
+        </div>
+        <div class="link-join-us">
+        Join Us
+        </div>
+        <div class="container-3">
+        |
+        </div>
+        <div class="button-sign-in">
+        Sign In
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="header  d-flex justify-content-between align-items-center"
+        style="padding: 0.5rem 3rem 0.5rem 3.1rem;">
+    <div class="link-nike-home-page-img col-2">
+      <img class="vector-10" src="../../../assets/vectors/vector_5_x2.svg" />
+    </div>
+        <div class="nav-menubar d-flex justify-content-between align-items-center col-5" >
+          @for(menu of menus; track $index){
+          <div class="d-flex justify-content-center w-100 cursor-pointer"
+            (mouseover)="onMouseHover($index)" >
+              <a class="navItem" >
+                {{menu}}
+              </a>
+            </div>
+          }
+        </div>
+
+        <div class="container-24 col-5">
+          <div class="container-2">
+            <input type="text" class="combobox-search-products">
+
+            <div class="button-open-search-modal">
+              <img class="vector-2" src="../../../assets/vectors/vector_11_x2.svg" />
+            </div>
+          </div>
+          <div class="link-favorites">
+            <img class="vector-3" src="../../../assets/vectors/vector_10_x2.svg" />
+          </div>
+          <div class="link-bag-items-0">
+            <img class="vector-9" src="../../../assets/vectors/vector_9_x2.svg" />
+          </div>
+        </div>
+  </div>
+
+      <div class="d-flex justify-content-center w-100 navItemlist pb-4" style="position: absolute;z-index: 1000;background-color: white;" (mouseleave)="isMenuItemHovered = false" #navItem>
+          @if(selectedIndex === 0 && isMenuItemHovered){
+          <div class="d-flex justify-content-between" style="width: 60%;" >
+            @for(menu of nikeEventItems; track $index){
+              <div class="d-flex flex-column  mb-2">
+                <h3 class="mb-2" style="font-weight: 500;">{{menu.name}}</h3>
+                <a class="mb-2" *ngFor="let item of menu.categories; let i= index"
+                class="navItem" style="font-size: 14px; font-weight: 500;">
+                {{item}}
+              </a>
+            </div>
+          }
+        </div>
+      }
+    </div>

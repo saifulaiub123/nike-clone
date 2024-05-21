@@ -1,0 +1,1386 @@
+  .carousel{
+    .slick-prev::before, .slick-next::before{
+      color: #111111 !important ;
+      left: 0 !important;
+    }  
+  } 
+.carousel-container {
+  overflow: hidden;
+  position: relative;
+  width: 800px; /* Adjust width as needed */
+}
+
+.carousel-slide {
+  animation: slide 0.5s ease-in-out forwards;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.prev, .next{
+  top: 50%;
+}
+.prev{
+  position: absolute;
+  left: 0;
+
+}
+.next{
+  position: absolute !important;
+  top: 50%;
+  right: 0;
+}
+  
+  .main-container{
+    max-width: 120rem;
+  }
+  .main-container .skip-to-main-content {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 0.9rem;
+    line-height: 1.887;
+    color: #111111;
+  }
+  .nav-menubar
+  .main-container .link-skip-to-main-content {
+    background: #FFFFFF;
+    margin: 0.3rem 0;
+    display: flex;
+    padding: 0 0.8rem 0rem 0.6rem;
+    box-sizing: border-box;
+  }
+  .main-container .vector-11 {
+    width: 1.2rem;
+    height: 1.1rem;
+  }
+  .main-container .item-link-jordan-svg {
+    margin: 0.1rem 0;
+    display: flex;
+    width: 1.2rem;
+    height: 1.1rem;
+    box-sizing: border-box;
+  }
+  .main-container .vector-12 {
+    width: 1.5rem;
+    height: 1.3rem;
+  }
+  .main-container .item-link-converse-svg {
+    display: flex;
+    width: 1.5rem;
+    height: 1.3rem;
+    box-sizing: border-box;
+  }
+  .main-container .list-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 4.3rem;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .main-container .link-find-astore {
+    margin: 0.1rem 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    color: #111111;
+  }
+  .main-container .container-1 {
+    margin: 0rem 0.7rem 0 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    color: #111111;
+  }
+  .main-container .menu-item-help-help {
+    margin: 0 0.8rem 0rem 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    color: #111111;
+  }
+  .main-container .container-2, .container-pipe {
+    margin: 0rem 0.7rem 0 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    color: #111111;
+  }
+  .main-container .link-join-us {
+    margin: 0rem 0.8rem 0 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 0.8rem;
+    line-height: 1.524;
+    color: #111111;
+  }
+  .main-container .container-3 {
+    display: flex;
+      flex-direction: column;
+      box-sizing: border-box;
+      margin-right: 6.4rem;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    color: #111111;
+  }
+  .main-container .button-sign-in {
+    margin-bottom: 0rem;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    color: #111111;
+  }
+  .main-container .container-18 {
+    margin: 0rem 0 0.1rem 0;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    align-items: center;
+  }
+  .max-height-1920{
+    max-width: 120rem;
+  }
+  .main-container 
+  .main-container .container-23 {
+    margin-bottom: 0rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+  .main-container .vector-10 {
+    width: 3.7rem;
+    height: 1.3rem;
+  }
+   
+  
+  .main-container .search {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1rem;
+    color: #CCCCCC;
+  }
+  .main-container .search {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1rem;
+    color: #CCCCCC;
+  }
+  .main-container .combobox-search-products {
+    border-width: 0px;
+    border-radius: 6.3rem;
+    background: #F5F5F5;
+    position: absolute;
+    left: 50%;
+    top: 0rem;
+    translate: -50% 0;
+    padding: 0.7rem 0;
+    padding-left: 2rem;
+    width: 11.3rem;
+    height: 2.5rem;
+    box-sizing: border-box;
+  }
+  .main-container .vector-2 {
+    width: 1rem;
+    height: 1rem;
+  }
+  .main-container .button-open-search-modal {
+    border-radius: 6.3rem;
+    position: relative;
+    display: flex;
+    width: 1rem;
+    height: 1rem;
+    box-sizing: border-box;
+  }
+  .main-container .container-2 {
+    margin: 0 0.4rem 0 0.4rem;
+    position: relative;
+    margin-right: 1.8rem;
+    padding: 0.7rem 0.9rem;
+    width: 11.3rem;
+    height: 2.5rem;
+    box-sizing: border-box;
+  }
+  .main-container .vector-3 {
+    width: 1.2rem;
+    height: 1rem;
+  }
+  .main-container .link-favorites {
+    border-radius: 6.3rem;
+    margin: 0.7rem 1.9rem 0.7rem 0;
+    display: flex;
+    width: 1.2rem;
+    height: 1rem;
+    box-sizing: border-box;
+  }
+  .main-container .vector-9 {
+    width: 1rem;
+    height: 1rem;
+  }
+  .main-container .link-bag-items-0 {
+    border-radius: 6.3rem;
+    margin: 0.7rem 0;
+    display: flex;
+    width: 1rem;
+    height: 1rem;
+    box-sizing: border-box;
+  }
+  .main-container .container-24 {
+    display: flex;
+    flex-direction: row;
+    width: 17.1rem;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+ 
+  .main-container .header {
+    max-width: 120rem;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .main-container .background-1 {
+    background: #F5F5F5;
+    margin-bottom: 3rem;
+    height: 41.7rem;
+    overflow: hidden;
+  }
+  .main-container .heading-3-making-iconic-look-easy {
+    margin: 0 0 1.6rem 0rem;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 3.7rem;
+    line-height: 1.146;
+    text-transform: uppercase;
+    color: #111111;
+  }
+  .main-container .wnba-star-haley-jones-knows-that-nike-dunks-are-always-game {
+    margin: 0 0 1.9rem 0rem;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.512;
+    color: #111111;
+  }
+  .main-container .shop-all {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #FFFFFF;
+  }
+  .main-container .link-shop-all {
+    border-radius: 1.9rem;
+    background: #111111;
+    margin-right: 0.4rem;
+    display: flex;
+    padding: 0.4rem 1rem;
+    box-sizing: border-box;
+  }
+  .main-container .container-11 {
+    margin-bottom: 5.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120rem;
+    box-sizing: border-box;
+  }
+  .main-container .just-in {
+    margin-bottom: 0.2rem;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.524;
+    color: #FFFFFF;
+  }
+  .main-container .heading-3-nike-pegasus-trail-5 {
+    margin-bottom: 0.2rem;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.313;
+    color: #FFFFFF;
+  }
+  .main-container .shop-1 {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.512;
+    color: #111111;
+  }
+  .main-container .link-shop-1 {
+    border-radius: 1.9rem;
+    background: #FFFFFF;
+    display: flex;
+    align-self: flex-start;
+    padding: 0.4rem 1rem 0.4rem 1rem;
+    box-sizing: border-box;
+  }
+  .height-660{
+    min-height: 41.25rem;
+  }
+  .main-container .figure {
+    background: url('../../../assets/images/nike_just_do_it_png.jpeg') no-repeat;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 3rem 2.3rem;
+    width: 60rem;
+    box-sizing: border-box;
+  }
+  .main-container .new-arrivals {
+    margin-bottom: 0.2rem;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.536;
+    color: #FFFFFF;
+  }
+  .main-container .heading-3-jordan-apparel {
+    margin-bottom: 0.2rem;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.28;
+    color: #FFFFFF;
+  }
+  .main-container .shop-2 {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.512;
+    color: #111111;
+  }
+  .main-container .link-shop-2 {
+    border-radius: 1.9rem;
+    background: #FFFFFF;
+    display: flex;
+    align-self: flex-start;
+    padding: 0.4rem 1rem 0.4rem 1rem;
+    box-sizing: border-box;
+  }
+  .main-container .figure-1 {
+    background: url('../../../assets/images/nike_just_do_it_jpg_4.png');
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 3rem 2.3rem;
+    width: 60rem;
+    box-sizing: border-box;
+  }
+  .main-container .container-12 {
+    display: flex;
+    flex-direction: row;
+    
+    box-sizing: border-box;
+  }
+  .main-container .nike-versatile {
+    margin-bottom: 0.2rem;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.536;
+    color: #FFFFFF;
+  }
+  .main-container .workout-styles-for-summer {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.313;
+    color: #FFFFFF;
+  }
+  .main-container .heading-3 {
+    margin-bottom: 0.3rem;
+    display: flex;
+    align-self: flex-start;
+    box-sizing: border-box;
+  }
+  .main-container .shop-3 {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.512;
+    color: #111111;
+  }
+  .main-container .link-shop-3 {
+    border-radius: 1.9rem;
+    background: #FFFFFF;
+    display: flex;
+    align-self: flex-start;
+    padding: 0.4rem 1rem 0.4rem 1rem;
+    box-sizing: border-box;
+  }
+  .main-container .figure-2 {
+    background: url('../../../assets/images/nike_just_do_it_jpg_5.jpeg');
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 3rem 2.3rem;
+    width: 60rem;
+    box-sizing: border-box;
+  }
+  .main-container .make-your-move {
+    margin-bottom: 0.2rem;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.548;
+    color: #FFFFFF;
+  }
+  .main-container .heading-3-fitness-essentials {
+    margin-bottom: 0.2rem;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.324;
+    color: #FFFFFF;
+  }
+  .main-container .shop-4 {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.512;
+    color: #111111;
+  }
+  .main-container .link-shop-4 {
+    border-radius: 1.9rem;
+    background: #FFFFFF;
+    display: flex;
+    align-self: flex-start;
+    padding: 0.4rem 1rem 0.4rem 1rem;
+    box-sizing: border-box;
+  }
+  .main-container .figure-3 {
+    background: url('../../../assets/images/nike_just_do_it_jpg_6.png');
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 3rem 2.3rem;
+    width: 60rem;
+    box-sizing: border-box;
+  }
+  .main-container .container-13 {
+    display: flex;
+    flex-direction: row;
+    
+    box-sizing: border-box;
+  }
+  .main-container .heading-3-new-this-week {
+    margin: 0 0 1.9rem 0rem;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 2.3rem;
+    line-height: 1.176;
+    text-transform: uppercase;
+    color: #111111;
+  }
+  .main-container .shop-womens-new-arrivals {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.536;
+    color: #FFFFFF;
+  }
+  .main-container .link-shop-womens-new-arrivals {
+    border-radius: 1.9rem;
+    background: #111111;
+    margin-right: 0.4rem;
+    display: flex;
+    padding: 0.4rem 1.2rem;
+    box-sizing: border-box;
+  }
+  .main-container .shop-mens-new-arrivals {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.536;
+    color: #FFFFFF;
+  }
+  .main-container .link-shop-mens-new-arrivals {
+    border-radius: 1.9rem;
+    background: #111111;
+    margin-right: 0.4rem;
+    display: flex;
+    padding: 0.4rem 1.2rem;
+    box-sizing: border-box;
+  }
+  .main-container .shop-kids-new-arrivals {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.524;
+    color: #FFFFFF;
+  }
+  .main-container .link-shop-kids-new-arrivals {
+    border-radius: 1.9rem;
+    background: #111111;
+    display: flex;
+    padding: 0.4rem 1.1rem;
+    box-sizing: border-box;
+  }
+  .main-container .container-1 {
+    margin: 0 0.4rem 0 0.4rem;
+    display: flex;
+    flex-direction: row;
+    
+    box-sizing: border-box;
+  }
+  .main-container .figure-nike-just-do-it-jpg-2 {
+    background: url('../../../assets/images/figure_nike_just_do_it_jpg.png');
+    width: 120rem;
+    height: 41.7rem;
+  }
+  .shop-by-class{
+    height: 15.625rem;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+  }
+  .new-this-week{
+    height: 18.75rem;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+  }
+  .main-container .container-14 {
+    display: flex;
+    width: 120rem;
+    height: 41.7rem;
+    box-sizing: border-box;
+  }
+  .main-container .heading-2-shop-by-classics {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 2.2rem;
+    line-height: 1.245;
+    text-transform: uppercase;
+    color: #111111;
+  }
+  .main-container .vector {
+    width: 1.1rem;
+    height: 1.8rem;
+  }
+  .main-container .button-previous-slide {
+    border-radius: 1.3rem;
+    background: #FFFFFF;
+    display: flex;
+    padding: 0.3rem 0.7rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    box-sizing: border-box;
+  }
+  .main-container .figure-nike-just-do-it-jpg-3 {
+    background: url('../../../assets/images/figure_nike_just_do_it_jpg_2.png');
+    position: absolute;
+    left: -32.3rem;
+    top: 0rem;
+    display: flex;
+    padding: 0 0.4rem;
+    width: 31.3rem;
+    height: 31.3rem;
+    box-sizing: border-box;
+  }
+  .main-container .figure-nike-just-do-it-jpg-4 {
+    background: url('../../../assets/images/figure_nike_just_do_it_jpg_1.png');
+    margin-bottom: 2.4rem;
+    width: 31.3rem;
+    height: 31.3rem;
+  }
+  .main-container .container {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #FFFFFF;
+  }
+  .main-container .overlay {
+    border-radius: 1.3rem;
+    background: rgba(18, 18, 18, 0.4);
+    display: flex;
+    padding: 0.4rem 1.1rem;
+    box-sizing: border-box;
+  }
+  .main-container .nike-just-do-it-jpg-6 {
+    background: url('../../../assets/images/nike_just_do_it_jpg_2.png');
+    margin-bottom: 0.9rem;
+    display: flex;
+    padding: 3rem 3rem 0 3rem;
+    
+    height: 31.3rem;
+    box-sizing: border-box;
+  }
+  .main-container .figcaption-heading-3-air-jordan-1 {
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #FFFFFF;
+  }
+  .main-container .container-17 {
+    display: flex;
+    flex-direction: column;
+    width: 31.3rem;
+    box-sizing: border-box;
+  }
+  .main-container .figure-nike-just-do-it-jpg {
+    background: url('../../../assets/images/figure_nike_just_do_it_jpg_4.png');
+    margin-bottom: 2.4rem;
+    width: 31.3rem;
+    height: 31.3rem;
+  }
+  .main-container .container-20 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+    box-sizing: border-box;
+  }
+  .main-container .vector-1 {
+    width: 1.1rem;
+    height: 1.8rem;
+  }
+  
+  
+  .carousel .slide.active {
+    /* Styles for the active slide (full opacity) */
+    opacity: 1;
+    transition-duration: 0ms; transform: translate3d(-4506.5px, 0px, 0px);
+  }
+  
+  .main-container .button-next-slide {
+    border-radius: 1.3rem;
+    background: #FFFFFF;
+    display: flex;
+    padding: 0.3rem 0.7rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    box-sizing: border-box;
+  }
+  .main-container .figure-nike-just-do-it-jpg-1 {
+    background: url('../../../assets/images/figure_nike_just_do_it_jpg_3.png');
+    position: absolute;
+    top: 0rem;
+    right: -32.3rem;
+    padding: 0 0.4rem;
+    width: 31.3rem;
+    height: 31.3rem;
+    box-sizing: border-box;
+  }
+  .main-container .container-16 {
+    overflow-x: hidden;
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+    gap: 1rem;
+  }
+  .main-container .container-15 {
+    /* margin: 0 3rem 3.9rem 0;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    
+    box-sizing: border-box; */
+  }
+  .main-container .heading-2-nike-membership {
+    margin-bottom: 1.9rem;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 1.124;
+    text-transform: uppercase;
+    color: #111111;
+  }
+  .main-container .member-product {
+    margin-bottom: 0.2rem;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.548;
+    color: #FFFFFF;
+  }
+  .main-container .heading-3-your-exclusive-access {
+    margin-bottom: 1.9rem;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.313;
+    color: #FFFFFF;
+  }
+  .main-container .shop {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.512;
+    color: #111111;
+  }
+  .main-container .link-shop {
+    border-radius: 1.9rem;
+    background: #FFFFFF;
+    display: flex;
+    align-self: flex-start;
+    padding: 0.4rem 1rem;
+    box-sizing: border-box;
+  }
+  .main-container .item-figure {
+    background: url('../../../assets/images/nike_just_do_it_jpg.png') no-repeat;
+    position: relative;
+    margin-right: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 3rem 3rem;
+    width: 37.4rem;
+    box-sizing: border-box;
+  }
+  .main-container .sports-wellness-apps {
+    margin-bottom: 0.2rem;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.512;
+    color: #FFFFFF;
+  }
+  .main-container .heading-3-movement-where-youre-at {
+    margin-bottom: 1.9rem;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.313;
+    color: #FFFFFF;
+  }
+  .main-container .move {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.561;
+    color: #111111;
+  }
+  .main-container .link-move {
+    border-radius: 1.9rem;
+    background: #FFFFFF;
+    display: flex;
+    align-self: flex-start;
+    padding: 0.4rem 1rem;
+    box-sizing: border-box;
+  }
+  .main-container .item-figure-1 {
+    height: 46.875rem;
+    background: url('../../../assets/images/nike_just_do_it_jpg_1.png') no-repeat;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 3rem 3rem;
+    width: 37.4rem;
+    box-sizing: border-box;
+    margin-right: 0.8rem;
+  }
+  .main-container .container-21 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .main-container .nike-by-you {
+    margin-bottom: 0.2rem;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.524;
+    color: #FFFFFF;
+  }
+  .main-container .heading-3-your-customization-service {
+    margin-bottom: 1.9rem;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.313;
+    color: #FFFFFF;
+  }
+  .main-container .customize {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.536;
+    color: #111111;
+  }
+  .main-container .link-customize {
+    border-radius: 1.9rem;
+    background: #FFFFFF;
+    display: flex;
+    align-self: flex-start;
+    padding: 0.4rem 1rem 0.4rem 1.1rem;
+    box-sizing: border-box;
+  }
+  .main-container .item-figure-2 {
+    background: url('../../../assets/images/nike_just_do_it_jpg_3.png') no-repeat;
+    display: flex;
+    padding: 0 0 3rem 3rem;
+    flex-direction: column;
+    width: 37.4rem;
+    box-sizing: border-box;
+    justify-content: end;
+  }
+  .main-container .list {
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+  }
+  .main-container .section {
+    margin: 0 3rem 7.1rem 3rem;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    
+    box-sizing: border-box;
+  }
+  .main-container .button-featured {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.512;
+    color: #111111;
+  }
+  .main-container .heading-4 {
+    display: flex;
+    box-sizing: border-box;
+  }
+  .main-container .button-shoes {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.512;
+    color: #111111;
+  }
+  .main-container .heading-41 {
+    display: flex;
+    box-sizing: border-box;
+  }
+  .main-container .button-clothing {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.524;
+    color: #111111;
+  }
+  .main-container .heading-42 {
+    display: flex;
+    box-sizing: border-box;
+  }
+  .main-container .button-kids {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.524;
+    color: #111111;
+  }
+  .main-container .heading-43 {
+    display: flex;
+    box-sizing: border-box;
+  }
+  .main-container .container-26 {
+    margin: 0 9.5rem 1.5rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 45.5rem;
+    box-sizing: border-box;
+  }
+  .main-container .air-force-1 {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.512;
+    color: #707072;
+  }
+  .main-container .item-link {
+    margin: 0 0.8rem 0.8rem 0;
+    display: flex;
+    box-sizing: border-box;
+  }
+  .main-container .jordan-1 {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.524;
+    color: #707072;
+  }
+  .main-container .item-link-1 {
+    margin-bottom: 0.8rem;
+    display: flex;
+    align-self: flex-start;
+    box-sizing: border-box;
+  }
+  .main-container .metcon {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.536;
+    color: #707072;
+  }
+  .main-container .item-link-2 {
+    margin-bottom: 0.8rem;
+    display: flex;
+    align-self: flex-start;
+    box-sizing: border-box;
+  }
+  .main-container .air-max-270 {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #707072;
+  }
+  .main-container .item-link-3 {
+    display: flex;
+    box-sizing: border-box;
+  }
+  .main-container .container-3 {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .main-container .all-shoes {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #707072;
+  }
+  .main-container .item-link-4 {
+    margin-bottom: 0.8rem;
+    display: flex;
+    align-self: flex-start;
+    box-sizing: border-box;
+  }
+  .main-container .jordan-shoes {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.512;
+    color: #707072;
+  }
+  .main-container .item-link-5 {
+    margin-bottom: 0.8rem;
+    display: flex;
+    align-self: flex-start;
+    box-sizing: border-box;
+  }
+  .main-container .running-shoes {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #707072;
+  }
+  .main-container .item-link-6 {
+    margin: 0 0.9rem 0.8rem 0;
+    display: flex;
+    box-sizing: border-box;
+  }
+  .main-container .basketball-shoes {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.512;
+    color: #707072;
+  }
+  .main-container .item-link-7 {
+    display: flex;
+    box-sizing: border-box;
+  }
+  .main-container .container-4 {
+    margin-right: 6.4rem;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .main-container .all-clothing {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.512;
+    color: #707072;
+  }
+  .main-container .item-link-8 {
+    margin-bottom: 0.8rem;
+    display: flex;
+    align-self: flex-start;
+    box-sizing: border-box;
+  }
+  .main-container .tops-tshirts {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.536;
+    color: #707072;
+  }
+  .main-container .item-link-9 {
+    margin-bottom: 0.8rem;
+    display: flex;
+    align-self: flex-start;
+    box-sizing: border-box;
+  }
+  .main-container .shorts {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.524;
+    color: #707072;
+  }
+  .main-container .item-link-10 {
+    margin-bottom: 0.8rem;
+    display: flex;
+    align-self: flex-start;
+    box-sizing: border-box;
+  }
+  .main-container .hoodies-pullovers {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.512;
+    color: #707072;
+  }
+  .main-container .item-link-11 {
+    display: flex;
+    box-sizing: border-box;
+  }
+  .main-container .container-5 {
+    margin-right: 5.2rem;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .main-container .infant-toddler-shoes {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.512;
+    color: #707072;
+  }
+  .main-container .item-link-12 {
+    margin-bottom: 0.8rem;
+    display: flex;
+    box-sizing: border-box;
+  }
+  .main-container .kids-shoes {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.524;
+    color: #707072;
+  }
+  .main-container .item-link-13 {
+    margin-bottom: 0.8rem;
+    display: flex;
+    align-self: flex-start;
+    box-sizing: border-box;
+  }
+  .main-container .kids-basketball-shoes {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.512;
+    color: #707072;
+  }
+  .main-container .item-link-14 {
+    margin: 0 0.2rem 0.8rem 0;
+    display: flex;
+    box-sizing: border-box;
+  }
+  .main-container .kids-running-shoes {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.512;
+    color: #707072;
+  }
+  .main-container .item-link-15 {
+    display: flex;
+    align-self: flex-start;
+    box-sizing: border-box;
+  }
+  .main-container .container-6 {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .main-container .container-19 {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .main-container .container-22 {
+    margin: 0 0.8rem 4.3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+ 
+  .main-container .container-7 {
+    margin: 0 9.9rem 2.1rem 0;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .main-container .item-link-main-footer-main-footer-help-help {
+    margin-bottom: 0.2rem;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 0.6rem;
+    letter-spacing: 0rem;
+    line-height: 2.31;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+
+  .main-container .item-link-gift-card-balance {
+    margin-bottom: 0.2rem;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 400;
+    color: #7E7E7E;
+  }
+  
+  .main-container .item-link-order-status,
+  .main-container .item-link-returns {
+    align-self: flex-start;
+    font-size: 0.8rem;
+    line-height: 2.333;
+  }
+  
+  .main-container .item-link-payment-options,
+  .main-container .item-link-gift-card-balance,
+  .main-container .item-link-shipping-and-delivery,
+  .main-container .item-link-contact-us {
+    font-size: 0.7rem;
+    line-height: 2.37;
+  }
+  .main-container .item-link-order-cancellation {
+    margin: 0 0.9rem 0.2rem 0;
+  }
+  .main-container .item-link-contact-us {
+    line-height: 2.409;
+  }
+  .main-container .container-9 {
+    margin: 0rem 11.3rem 3.9rem 0;
+  }
+  .main-container .container-10 {
+    margin: 0rem 11.7rem 5.8rem 0;
+  }
+  .main-container .vector-4,
+  .main-container .vector-5,
+  .main-container .vector-6,
+  .main-container .vector-7 {
+    width: 1.9rem;
+    height: 1.9rem;
+  }
+  
+ 
+  .main-container .container {
+    margin-bottom: 1.8rem;
+    display: flex;
+    flex-direction: row;
+    
+    box-sizing: border-box;
+  }
+  .main-container 
+  .main-container .item-button-guides-guides {
+    margin-right: 0.9rem;
+    width: 3.5rem;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 2.333;
+    color: #7E7E7E;
+  }
+  .main-container .item-link-terms-of-sale-terms-of-sale {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 0.7rem;
+    line-height: 2.37;
+    color: #7E7E7E;
+  }
+  .main-container .item-link-terms-of-use-terms-of-use {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 0.7rem;
+    line-height: 2.409;
+    color: #7E7E7E;
+  }
+  .main-container .item-link-nike-privacy-policy-nike-privacy-policy {
+    margin-right: 1.7rem;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 0.7rem;
+    line-height: 2.37;
+    color: #7E7E7E;
+  }
+  .main-container .your-privacy-choices {
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 0.7rem;
+    line-height: 2.37;
+    color: #7E7E7E;
+  }
+  .main-container .item-link-your-privacy-choices {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .main-container .container-29 {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .main-container .container-28 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 34.1rem;
+    box-sizing: border-box;
+  }
+  .main-container .item-link-ca-supply-chains-act-ca-supply-chains-act {
+    margin: 0 0rem;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 0.7rem;
+    line-height: 2.37;
+    color: #7E7E7E;
+  }
+  .main-container {
+    background: linear-gradient(#FFFFFF, #FFFFFF), linear-gradient(#FFFFFF, #FFFFFF);
+    width: 120rem;
+    box-sizing: border-box;
+  }
+  

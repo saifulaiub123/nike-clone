@@ -1,0 +1,56 @@
+
+<div class="container">
+    <div class="row d-flex justify-content-end">
+        <div class="d-flex justify-content-between col-xl-2 col-3 py-3">
+            <div class="d-flex gap-2">
+                <h4>Hide Filter</h4>
+                <mat-icon>
+                    <span class="material-symbols-outlined">
+                        tune
+                        </span>
+                </mat-icon>
+
+            </div>
+            <div class="d-flex gap-2">
+                <h4>Sort</h4>
+                <span class="material-symbols-outlined">
+                    keyboard_arrow_down
+                    </span>
+            </div>
+        </div>
+    </div>
+    <div class="row gap-3">
+        @for(item of Categories; track item.id; let index = $index;){
+                <div class="card col-4 shoe-card p-0 cursor-pointer" 
+                (click)="onShoeSelect(item.id)">
+                @if(selectedIndex === index){
+                    <img [src]="hoveredImage" alt="">
+                }@else {
+                    <img [src]="(index % 2 === 0) ? '../../../assets/images/air-jordan.svg'
+                    : '../../../assets/images/air-max.svg'" class="card-img-top" alt="...">
+                }
+                    <div class="card-body border" >
+                      <h5 class="card-title title">{{item.categoria}}</h5>
+                      <h6 class="card-title font-color">{{item.nome}}</h6>
+                          <p class=" font-color">5 Colors</p>
+                          <p class="font-color">{{item.prezzo | currency}}</p>
+                    </div>
+
+                    <div class="shortDetail mt-2">
+                        <div class="d-flex flex-column">
+                            <div class="d-flex align-items-center gap-1">
+                                <img (mouseover)="onMouseHover(img,index)" height="60px" 
+                                *ngFor="let img of item.images;let i = index" [src]="img" alt="">
+                                <p class="font-color ms-2"  style="font-size: 18px;"> +{{subCategories.length }}</p>
+                            </div>
+                            <h5 class="card-title title mt-3">{{item.categoria}}</h5>
+                            <p class="font-color">{{item.prezzo | currency}}</p>
+                        </div>
+                    </div>
+            </div>
+        }
+
+    </div>
+
+</div>
+

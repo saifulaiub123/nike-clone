@@ -1,0 +1,36 @@
+.title{
+    color: #9E3500;
+        // /* margin-bottom: 0; */
+        margin-top: -3px;
+        opacity: 1;
+        display: inline-block;
+        font-size: 1rem;
+        font-weight: 500;
+}
+.font-color{
+    font-size: 16px;
+    color: #707072;
+    font-weight: 500;
+}
+.shoe-card{
+    width: 32%;
+}
+.card{
+    cursor: pointer;
+    border: none !important;
+    &:hover{
+        .card-body{   
+            display: none;
+        }
+        .shortDetail{
+            display: block;
+        }
+    }
+    .shortDetail{
+        display: none;
+    }
+}
+.card-body {
+    border: none !important;
+}
+

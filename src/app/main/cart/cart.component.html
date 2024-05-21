@@ -1,0 +1,107 @@
+<div class="container">
+    <div class="row pb-5">
+    <div class="col-8" >
+        <h2>Bag</h2>
+        <div *ngFor="let item of [1,2]" >
+            <div class="d-flex  mt-4 justify-content-between">
+                <div class="d-flex gap-2 ">
+                    <div>
+                        <div>
+                            <img src="../../../assets/images/air-jordan.svg" alt="" 
+                            style="width: 164px;" class="me-2">
+                            <h4 class="mb-2">Shipping</h4>
+                            <p> Arrived by Thu 4, 12</p>
+                        </div>
+                    </div>
+                    <div class="details">
+                        <div class="d-flex flex-column">
+                            <h4>Nike Air Max Dn</h4>
+                            <p>Shoes</p>
+                            <p>White/White/Metallic Silver/White</p>
+                            <div class="d-flex gap-3">
+                                <div class="d-flex gap-1">
+                                    <label for="cars">Size</label>
+                                        <select id="cars" name="cars">
+                                            <option ></option>
+                                            <option value="saab">Saab</option>
+                                            <option value="fiat">Fiat</option>
+                                            <option value="audi">Audi Fiat Fiat</option>
+                                            <option value="audi">Audi Fiat Fiat</option>
+                                            <option value="audi">Audi Fiat Fiat</option>
+                                            <option value="audi">Audi Fiat Fiat</option>
+                                            <option value="audi">Audi Fiat Fiat</option>
+                                            <option value="audi">Audi Fiat Fiat</option>
+                                            <option value="audi">Audi Fiat Fiat</option>
+                                            <option value="audi">Audi Fiat Fiat</option>
+                                            <option value="audi">Audi Fiat Fiat</option>
+                                        </select>
+        
+                                </div>
+                                <div class="d-flex gap-1">
+                                    <label for="cars">Qauntity</label>
+                                        <select id="cars" name="cars">
+                                            <option ></option>
+                                            <option value="saab">2</option>
+                                            <option value="fiat">6</option>
+                                            <option value="audi">2</option>
+                                            <option value="audi">25</option>
+                                            <option value="audi">2</option>
+                                            <option value="audi">20 </option>
+                                            <option value="audi">2</option>
+                                        </select>
+        
+                                </div>
+                            </div>
+                            <div class="d-flex gap-3 mt-4">
+                                <mat-icon>
+                                    <span class="material-symbols-outlined">
+                                        favorite
+                                        </span>
+                                </mat-icon>
+                                <mat-icon>
+                                    <span class="material-symbols-outlined">
+                                        delete
+                                        </span>
+                                </mat-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <h4>$649.00</h4>
+                </div>
+            </div>
+            <hr>
+        </div>
+    
+    </div>
+    <div class="col-4">
+        <div>
+            <h2>Summary</h2>
+            <div class="d-flex justify-content-between">
+                <h4>Subtotal</h4>
+                <p>$943.34</p>
+            </div>
+            <div class="d-flex justify-content-between">
+                <h4>Estimated Shipping & Handling</h4>
+                <p>$9.22</p>
+            </div>
+            <div class="d-flex justify-content-between">
+                <h4>Estimated Tax</h4>
+                <p>-</p>
+            </div>
+        </div>
+        <hr>
+        <div class="py-2 d-flex justify-content-between">
+            <p>Total</p>
+            <p>$434.00</p>
+        </div>
+        <hr>
+    
+        <div class="control d-flex flex-column gap-3 align-items-center">
+            <button class="w-75 btn btn-add " (click)="navigateToCheckout()">Checkout</button>
+            <button class="w-75 btn btn-fav">Paypal</button>
+        </div>
+    </div>
+    </div>
+</div>

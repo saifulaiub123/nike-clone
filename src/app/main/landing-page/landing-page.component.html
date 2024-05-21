@@ -1,0 +1,287 @@
+<div class="">
+  <div class="main-container">
+    <div class="container-11">
+      <div class="background-1 max-height-1920 ">
+        <img style="width: inherit;" src="../../../assets/images/coverimage.jpg" alt="">
+      </div>
+      <div class="heading-3-making-iconic-look-easy">
+      Making Iconic Look Easy
+      </div>
+      <div class="wnba-star-haley-jones-knows-that-nike-dunks-are-always-game">
+      WNBA star Haley Jones knows that Nike Dunks are always game.
+      </div>
+      <div class="link-shop-all">
+        <span class="shop-all">
+        Shop All
+        </span>
+      </div>
+    </div>
+    <div class="container-12">
+      <div class="figure height-660">
+        <div class="just-in">
+        Just In
+        </div>
+        <div class="heading-3-nike-pegasus-trail-5">
+        Nike Pegasus Trail 5
+        </div>
+        <div class="link-shop-1">
+          <span class="shop-1">
+          Shop
+          </span>
+        </div>
+      </div>
+      <div class="figure-1">
+        <div class="new-arrivals">
+        New Arrivals
+        </div>
+        <div class="heading-3-jordan-apparel">
+        Jordan Apparel
+        </div>
+        <div class="link-shop-2">
+          <span class="shop-2">
+          Shop
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="container-13">
+      <div class="figure-2 height-660">
+        <div class="nike-versatile">
+        Nike Versatile
+        </div>
+        <div class="heading-3">
+          <span class="workout-styles-for-summer">
+          Workout Styles<br />
+          for Summer
+          </span>
+        </div>
+        <div class="link-shop-3">
+          <span class="shop-3">
+          Shop
+          </span>
+        </div>
+      </div>
+      <div class="figure-3">
+        <div class="make-your-move">
+        Make Your Move
+        </div>
+        <div class="heading-3-fitness-essentials">
+        Fitness Essentials
+        </div>
+        <div class="link-shop-4">
+          <span class="shop-4">
+          Shop
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="new-this-week">
+      <div class="heading-3-new-this-week">
+      New This Week
+      </div>
+      <div class="container-1">
+        <div class="link-shop-womens-new-arrivals">
+          <span class="shop-womens-new-arrivals">
+          Shop Women&#39;s New Arrivals
+          </span>
+        </div>
+        <div class="link-shop-mens-new-arrivals">
+          <span class="shop-mens-new-arrivals">
+          Shop Men&#39;s New Arrivals
+          </span>
+        </div>
+        <div class="link-shop-kids-new-arrivals">
+          <span class="shop-kids-new-arrivals">
+          Shop Kids&#39; New Arrivals
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="container-14">
+      <div class="figure-nike-just-do-it-jpg-2">
+      </div>
+    </div>
+    <div class="container-150" style="height: 15rem; display: flex; align-items: center; justify-content: start; width: 100%;">
+      <div class="heading-2-shop-by-classics
+      ">
+      Shop By Classics
+      </div>
+    </div>
+        <ngx-slick-carousel class="carousel" 
+          #slickModal="slick-carousel" 
+          [config]="slideConfig">
+            @for (slide of categories; track slide.img) {
+              <div ngxSlickItem class="slide" >
+                <img (click)="navigateToCategory()" src="{{ slide.img }}" alt="" 
+                style="height: 339px !important;">
+              </div>
+            }
+        </ngx-slick-carousel>
+    <div class="section">
+      <div class="heading-2-nike-membership">
+      Nike Membership
+      </div>
+      <div class="list">
+        <div class="container-21">
+          <div class="item-figure">
+            <div class="member-product">
+            Member Product
+            </div>
+            <div class="heading-3-your-exclusive-access">
+            Your Exclusive Access
+            </div>
+            <div class="link-shop">
+              <span class="shop">
+              Shop
+              </span>
+            </div>
+          </div>
+          <div class="item-figure-1">
+            <div class="sports-wellness-apps">
+            Sports &amp; Wellness Apps
+            </div>
+            <div class="heading-3-movement-where-youre-at">
+            Movement Where You&#39;re At
+            </div>
+            <div class="link-move">
+              <span class="move">
+              Move
+              </span>
+            </div>
+          </div>
+          <div class="item-figure-2">
+            <div class="nike-by-you">
+            Nike By You
+            </div>
+            <div class="heading-3-your-customization-service">
+            Your Customization Service
+            </div>
+            <div class="link-customize">
+              <span class="customize">
+              Customize
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-22">
+      <div class="container-26">
+        <div class="heading-4">
+          <span class="button-featured">
+          Featured
+          </span>
+        </div>
+        <div class="heading-41">
+          <span class="button-shoes">
+          Shoes
+          </span>
+        </div>
+        <div class="heading-42">
+          <span class="button-clothing">
+          Clothing
+          </span>
+        </div>
+        <div class="heading-43">
+          <span class="button-kids">
+          Kids
+          </span>
+        </div>
+      </div>
+      <div>
+        <div class="container-19">
+          <div class="container-3">
+            <div class="item-link">
+              <span class="air-force-1">
+              Air Force 1
+              </span>
+            </div>
+            <div class="item-link-1">
+              <span class="jordan-1">
+              Jordan 1
+              </span>
+            </div>
+            <div class="item-link-2">
+              <span class="metcon">
+              Metcon
+              </span>
+            </div>
+            <div class="item-link-3">
+              <span class="air-max-270">
+              Air Max 270
+              </span>
+            </div>
+          </div>
+          <div class="container-4">
+            <div class="item-link-4">
+              <span class="all-shoes">
+              All Shoes
+              </span>
+            </div>
+            <div class="item-link-5">
+              <span class="jordan-shoes">
+              Jordan Shoes
+              </span>
+            </div>
+            <div class="item-link-6">
+              <span class="running-shoes">
+              Running Shoes
+              </span>
+            </div>
+            <div class="item-link-7">
+              <span class="basketball-shoes">
+              Basketball Shoes
+              </span>
+            </div>
+          </div>
+          <div class="container-5">
+            <div class="item-link-8">
+              <span class="all-clothing">
+              All Clothing
+              </span>
+            </div>
+            <div class="item-link-9">
+              <span class="tops-tshirts">
+              Tops &amp; T-Shirts
+              </span>
+            </div>
+            <div class="item-link-10">
+              <span class="shorts">
+              Shorts
+              </span>
+            </div>
+            <div class="item-link-11">
+              <span class="hoodies-pullovers">
+              Hoodies &amp; Pullovers
+              </span>
+            </div>
+          </div>
+          <div class="container-6">
+            <div class="item-link-12">
+              <span class="infant-toddler-shoes">
+              Infant &amp; Toddler Shoes
+              </span>
+            </div>
+            <div class="item-link-13">
+              <span class="kids-shoes">
+              Kids Shoes
+              </span>
+            </div>
+            <div class="item-link-14">
+              <span class="kids-basketball-shoes">
+              Kids Basketball Shoes
+              </span>
+            </div>
+            <div class="item-link-15">
+              <span class="kids-running-shoes">
+              Kids Running Shoes
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>  
+</div>
+    <script src="../../../assets/index.js"></script>

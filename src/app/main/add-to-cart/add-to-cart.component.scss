@@ -1,0 +1,51 @@
+.images{
+    height: 60px; width: 60px;
+}
+.name{
+    color: #111111;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.007em;
+}
+.size{
+    border: 1px solid #CACACB;
+    border-radius: 5px;
+    padding: 10px;
+    width: 24% !important;
+    &:hover{
+        border: 1px solid #000;
+    }
+}
+.selected{
+    border: 1px solid #000;
+}
+
+.category, .price, .discription{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.7;
+}
+.card{
+    border: none !important;
+}
+
+.btn{
+    border-radius: 30px;
+    border: 1.5px;
+    padding: 18px 24px;
+    width: 100%;
+}
+
+.btn-add{
+    color: White;
+    background-color: #111111;
+}
+.btn-fav{
+    border: 1px solid #CACACB;
+    background-color: #fff !important;
+    color: #111111;
+}
+
+.notSelected{
+    border: 1px solid red !important;
+}

@@ -1,0 +1,55 @@
+<div class="container p-4">
+    <div class="d-flex">
+        <div class="d-flex me-3 flex-column gap-1">
+            @for (item of immages; track $index) {
+                <img [src]="item" class="images" (mouseover)="onMouseHover(item,$index)" style="border-radius: 5px !important ;">
+            }
+        </div>
+        <img class="col-6 pe-5" [src]=" hoveredImage ? hoveredImage : '../../../assets/images/dunk.svg'" alt="">
+        <div class="details">
+           
+            <div class="row pb-5" >
+                <h1 class="name p-0">{{selectedShoe.nome}}</h1>
+                <p class="p-0 category">Category</p>
+                <p class="p-0 price">{{selectedShoe.prezzo | currency}}</p>
+
+                <div class="d-flex gap-1 p-0"  >
+                    @for (item of immages; track $index) {
+                        <img [src]="item" class="images mb-4"
+                        [ngClass]="{'selected': selectedImages === $index}" 
+                        (click)="selectedImage($index)" style="border-radius: 5px !important ;">
+                    }
+                </div>
+                <div class="d-flex justify-content-between p-0">
+                    <p class="name" [style.color]="!isSelected ? 'red' : ''" >Select size</p>
+                    <p class="name">Size guide</p>
+                </div>
+                <div [ngClass]="{'notSelected': selectedShowSize === '0' && !isSelected}"
+                    class="card d-flex flex-wrap mb-2">
+                    <div class="row d-flex justify-content-between">
+                    @for(size of selectedShoe.taglie_disponibili; track $index){
+                            <div (click)="selectedSize(size)" [ngClass]="{'selected': size === selectedShowSize}" 
+                            class="col-3 d-flex align-items-center mb-2 justify-content-center size">
+                                {{size}}
+                            </div>
+                        }
+                    </div>
+                </div>
+                @if(!isSelected){
+                    <p style="color: red;" class="mb-2 name">Plaese select the size</p>
+                }
+
+                <button class="mb-3 btn btn-add" (click)="addToCart()">Add to Bag</button>
+                <button class=" btn btn-fav d-flex justify-content-center align-items-center">Favorite
+                    <mat-icon class="d-flex justify-content-center align-items-center">
+                        <span class="material-symbols-outlined" style="font-size: 15px;">
+                            favorite
+                            </span>
+                    </mat-icon>
+                </button>
+
+                <span class="mt-5 discription">{{selectedShoe.descrizione}}</span>
+            </div>
+        </div>
+    </div>
+</div>

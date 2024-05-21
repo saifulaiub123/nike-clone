@@ -1,0 +1,218 @@
+.container {
+    margin-bottom: 1.8rem;
+    display: flex;
+    flex-direction: row;
+    
+    box-sizing: border-box;
+  }
+.footer {
+    background: #111111;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.5rem 0 0.5rem 0;
+    box-sizing: border-box;
+  }
+  .container-7 {
+    margin: 0 9.9rem 2.1rem 0;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+
+   .item-link-resources {
+    margin-bottom: 0.2rem;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 0.6rem;
+    line-height: 3.282;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+   .item-link-gift-cards {
+    margin-bottom: 0.2rem;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 0.6rem;
+    line-height: 3.282;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+   .item-link-find-astore {
+    margin-bottom: 0.2rem;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 0.6rem;
+    line-height: 3.247;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+   .item-link-become-amember {
+    margin-bottom: 0.2rem;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 0.6rem;
+    line-height: 3.247;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+   .item-link-nike-xnba {
+    margin-bottom: 0.2rem;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 0.6rem;
+    line-height: 3.247;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+   .item-link-nike-journal {
+    margin-bottom: 0.2rem;
+    display: inline-block;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 0.6rem;
+    line-height: 3.394;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+   .item-button-site-feedback {
+    margin: 0 0.1rem;
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 0.7rem;
+    line-height: 2.239;
+    color: #FFFFFF;
+  }
+   .container-8,
+   .container-9,
+   .container-10 {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  
+   .container-8 {
+    margin: 0rem 8.6rem 0 0;
+  }
+  .container-10 {
+    margin: 0rem 11.7rem 5.8rem 0;
+  }
+   .footer-list {
+    align-self: flex-start;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-size: 0.7rem;
+    line-height: 2.37;
+    color: #7E7E7E;
+    cursor: pointer ;
+    display: inline;
+  }
+   .footer-list:hover {
+    color: #fff;
+  }
+  .list-1 {
+    margin: 0rem 0 15.1rem 0;
+    display: flex;
+    flex-direction: row;
+    width: 10.5rem;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+   .item-link-twitter-svg,
+   .item-link-facebook-svg,
+   .item-link-youtube-svg,
+   .item-link-instagram-svg {
+    display: flex;
+    width: 1.9rem;
+    height: 1.9rem;
+    box-sizing: border-box;
+  }
+  
+   .item-link-twitter-svg,
+   .item-link-facebook-svg,
+   .item-link-youtube-svg {
+    margin-right: 1rem;
+  }
+  .container-25 {
+    margin-right: 0.1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 84.1rem;
+    box-sizing: border-box;
+  }
+  .container-27 {
+    margin: 3rem 0 0.6rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20.9rem;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .link-selected-location-united-states {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .img {
+    margin: 0 0.8rem 0.1rem 0;
+    display: flex;
+    width: 0.6rem;
+    height: 0.8rem;
+    box-sizing: border-box;
+  }
+  .vector-8 {
+    width: 0.6rem;
+    height: 0.8rem;
+  }
+  .united-states {
+    margin-top: 0.1rem;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 0.7rem;
+    line-height: 1.016;
+    color: #FFFFFF;
+  }
+  .nike-inc-all-rights-reserved {
+    margin: 0.1rem 0 0rem 0;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 1;
+    color: #7E7E7E;
+  }
+  .image-png {
+    background: url('../../../assets/images/image_png.png');
+    margin: 0.3rem 0.4rem 0.6rem 0;
+    width: 0.9rem;
+    height: 0.9rem;
+  }
+  .list-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    box-sizing: border-box;
+  }
